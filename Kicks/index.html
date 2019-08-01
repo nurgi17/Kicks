@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Kicks</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand"><img src="../Kicks/img/logo.png" alt="Logo" class="img-fluid w-50"
+            id="logo"></a>
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item"><a href="#" class="nav-link"><img src="../Kicks/img/shopping-bag.png" alt="shopping-bag"
+                class="img-fluid w-75"></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="d-flex justify-content-center align-items-end " id="nur">
+      <a href="#types"><i class="fas fa-chevron-down fa-3x text-white"></i></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section id="types">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-center mb-5">
+            <div id="sneakers">
+              <a href="#"><img src="../Kicks/img/sneakers.png" alt="Sneakers" class="img-fluid w-75"></a>
+            </div>
+          </div>
+          <div class="col-sm-6 text-center">
+            <div id="sports">
+              <a href="#"><img src="../Kicks/img/sports.png" alt="Sports" class="img-fluid w-75"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="d-flex flex-column float-right mx-auto my-auto" id="hey">
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Term of use</a>
+        <a href="#">Cancellation & Return</a>
+        <a href="#">FAQ</a>
+        <a href="#">Careers</a>
+      </div>
+  </footer>
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/smooth_scroll.js"></script>
+
+  <script>
+    $("#sneakers").click(function (e) {
+      e.preventDefault();
+      $("#sneakers").replaceWith($("<a href=\"shoes.html\"><img src=\"../Kicks/img/sneakers2.png\" alt=\"Sneakers\" class=\"img-fluid w-75\"></a>"));
+    });
+
+    $("#sports").click(function (e) {
+      e.preventDefault();
+      $("#sports").replaceWith($("<a href=\"shoes.html\"><img src=\"../Kicks/img/sports2.png\" alt=\"Sports\" class=\"img-fluid w-75\"></a>"));
+    });
+  </script>
+</body>
+
+</html>

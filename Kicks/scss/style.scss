@@ -1,0 +1,219 @@
+@import "variables";
+@import "mixins";
+
+
+// General ------------------------------------------------------------
+* {
+    @include mp;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @include mp;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: $white;
+}
+
+// General END------------------------------------------------------------
+
+// Header ------------------------------------------------------------
+
+#nur {
+    background: url("../img/back1.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 840px;
+}
+
+// Types section ------------------------------------------------------------
+#types {
+    background-image: linear-gradient(to bottom right, $grad1, $grad2);
+    padding: 150px 0 150px 0;
+}
+
+// Types section  END------------------------------------------------------------
+
+// Footer section ------------------------------------------------------------
+footer {
+    background: url("../img/footer.png") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+
+        color: $g2;
+    }
+}
+
+
+#hey {
+    padding-top: 16%;
+    padding-right: 12%;
+    line-height: 2em;
+}
+
+// Footer section END ------------------------------------------------------------
+
+// Media queries ------------------------------------------------------------
+
+
+@media (max-width:375px) {
+    .navbar-brand {
+        width: 75%;
+    }
+}
+
+@media (max-width: 520px) {
+    #lineb {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .mb-6 {
+        margin-bottom: 10;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #current {
+        margin-top: 30px;
+    }
+
+    #numbers,
+    #buttons {
+        padding-right: 15%;
+    }
+
+}
+
+@media (max-width: 982px) {
+    footer {
+        height: 500px;
+    }
+}
+
+// Media queries END------------------------------------------------------------
+
+
+
+// shoes.html page------------------------------------------------------------
+// Second nav------------------------------------------------------------
+#secondNav {
+    background-image: linear-gradient(to bottom right, $grad1, $grad3);
+    padding: 15px;
+}
+
+.active {
+    border-bottom: 4px solid #000000;
+}
+
+// Second nav end------------------------------------------------------------
+
+// Shoes section------------------------------------------------------------
+#shoes,
+#current {
+    background-image: linear-gradient(to bottom right, $g1, $g2);
+    padding-bottom: 5%;
+}
+
+.borderrr {
+    border-top: 7px solid #000000;
+    width: 35%;
+}
+
+.fff {
+    margin-top: -22%;
+    z-index: 999;
+}
+
+.mb-6 {
+    margin-bottom: 100px;
+}
+
+.btnnn {
+    background-image: linear-gradient(to bottom left, #808080, #838383);
+    border-radius: 100px;
+    padding: 10px 29px;
+    font-weight: 700;
+    color: $white;
+    font-size: 1.5em;
+}
+
+.btnnn:hover {
+    background-image: linear-gradient(to bottom right, #FFFFFF, #EFEFEF);
+    color: #000000;
+}
+
+// Shoes section END------------------------------------------------------------
+
+// current.html page------------------------------------------------------------
+
+#current {
+    padding-top: 10%;
+
+    #right {
+        padding-left: 10%;
+        max-width: 100%;
+
+        h2,
+        h5,
+        p {
+            color: $text;
+        }
+
+        p {
+            font-weight: bold;
+            line-height: 1.1em;
+        }
+    }
+
+    #numbers {
+        padding-left: 8%;
+
+        a {
+            padding: 0px 5px;
+            color: $text1;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+
+        a:hover {
+            background-image: linear-gradient(to bottom right, #FFFFFF, #EFEFEF);
+            color: #000000;
+            border-radius: 15px;
+            font-size: 1.8em;
+        }
+    }
+
+    #buttons {
+        padding-left: 7%;
+
+        a {
+            margin: 15px 10px;
+        }
+    }
+
+    #similar {
+        margin-top: 10%;
+    }
+}
+
+// current.html page END------------------------------------------------------------

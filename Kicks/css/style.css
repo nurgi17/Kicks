@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  width: 100%; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #FFFFFF; }
+
+#nur {
+  background: url("../img/back1.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 840px; }
+
+#types {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#F1F1F1), to(#F0F0F0));
+  background-image: -webkit-linear-gradient(top left, #F1F1F1, #F0F0F0);
+  background-image: -o-linear-gradient(top left, #F1F1F1, #F0F0F0);
+  background-image: linear-gradient(to bottom right, #F1F1F1, #F0F0F0);
+  padding: 150px 0 150px 0; }
+
+footer {
+  background: url("../img/footer.png") no-repeat center center;
+  background-size: cover;
+  height: 700px; }
+  footer a {
+    color: #FFFFFF; }
+  footer a:hover {
+    color: #D2D2D2; }
+
+#hey {
+  padding-top: 16%;
+  padding-right: 12%;
+  line-height: 2em; }
+
+@media (max-width: 375px) {
+  .navbar-brand {
+    width: 75%; } }
+
+@media (max-width: 520px) {
+  #lineb {
+    margin-bottom: 5%; } }
+
+@media (max-width: 576px) {
+  .mb-6 {
+    margin-bottom: 10; } }
+
+@media (max-width: 700px) {
+  footer {
+    height: 300px; } }
+
+@media (max-width: 768px) {
+  #current {
+    margin-top: 30px; }
+  #numbers,
+  #buttons {
+    padding-right: 15%; } }
+
+@media (max-width: 982px) {
+  footer {
+    height: 500px; } }
+
+#secondNav {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#F1F1F1), to(#EFEFEF));
+  background-image: -webkit-linear-gradient(top left, #F1F1F1, #EFEFEF);
+  background-image: -o-linear-gradient(top left, #F1F1F1, #EFEFEF);
+  background-image: linear-gradient(to bottom right, #F1F1F1, #EFEFEF);
+  padding: 15px; }
+
+.active {
+  border-bottom: 4px solid #000000; }
+
+#shoes,
+#current {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#E4E4E4), to(#D2D2D2));
+  background-image: -webkit-linear-gradient(top left, #E4E4E4, #D2D2D2);
+  background-image: -o-linear-gradient(top left, #E4E4E4, #D2D2D2);
+  background-image: linear-gradient(to bottom right, #E4E4E4, #D2D2D2);
+  padding-bottom: 5%; }
+
+.borderrr {
+  border-top: 7px solid #000000;
+  width: 35%; }
+
+.fff {
+  margin-top: -22%;
+  z-index: 999; }
+
+.mb-6 {
+  margin-bottom: 100px; }
+
+.btnnn {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#808080), to(#838383));
+  background-image: -webkit-linear-gradient(top right, #808080, #838383);
+  background-image: -o-linear-gradient(top right, #808080, #838383);
+  background-image: linear-gradient(to bottom left, #808080, #838383);
+  border-radius: 100px;
+  padding: 10px 29px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 1.5em; }
+
+.btnnn:hover {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#EFEFEF));
+  background-image: -webkit-linear-gradient(top left, #FFFFFF, #EFEFEF);
+  background-image: -o-linear-gradient(top left, #FFFFFF, #EFEFEF);
+  background-image: linear-gradient(to bottom right, #FFFFFF, #EFEFEF);
+  color: #000000; }
+
+#current {
+  padding-top: 10%; }
+  #current #right {
+    padding-left: 10%;
+    max-width: 100%; }
+    #current #right h2,
+    #current #right h5,
+    #current #right p {
+      color: #7C7C7C; }
+    #current #right p {
+      font-weight: bold;
+      line-height: 1.1em; }
+  #current #numbers {
+    padding-left: 8%; }
+    #current #numbers a {
+      padding: 0px 5px;
+      color: #A6A6A6;
+      font-weight: bold;
+      font-size: 1.4em; }
+    #current #numbers a:hover {
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#EFEFEF));
+      background-image: -webkit-linear-gradient(top left, #FFFFFF, #EFEFEF);
+      background-image: -o-linear-gradient(top left, #FFFFFF, #EFEFEF);
+      background-image: linear-gradient(to bottom right, #FFFFFF, #EFEFEF);
+      color: #000000;
+      border-radius: 15px;
+      font-size: 1.8em; }
+  #current #buttons {
+    padding-left: 7%; }
+    #current #buttons a {
+      margin: 15px 10px; }
+  #current #similar {
+    margin-top: 10%; }
