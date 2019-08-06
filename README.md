@@ -1,6 +1,6 @@
 # Kicks
 This is the code of designing the web site template for Kicks shop (<strong>Fully Responsive</strong>)<br>
-<strong>Frontend -> HTML&CSS, SCSS, Bootstrap 4</strong><br>
+<strong>Frontend -> HTML&CSS, SCSS, Bootstrap 4, JQuery</strong><br>
 <strong>Home page</strong><br>
 <p align="center"><img src="https://github.com/nurgi17/Kicks/blob/master/i1.png"></p>
 <p align="center"><img src="https://github.com/nurgi17/Kicks/blob/master/i2.png"></p>
